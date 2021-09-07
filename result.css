@@ -1,0 +1,234 @@
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+}
+
+.result-container {
+  width: 100% !important;
+  height: 100px;
+  display: flex;
+
+  align-items: center;
+  justify-content: flex-end;
+}
+
+.result-child {
+  width: 360px;
+  height: 44px;
+  background-color: #fafafc;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+.result-search-input {
+  width: 100%;
+  height: 100%;
+  border: none;
+  outline: none;
+  background-color: #fafafc;
+}
+.result-input-wrapper {
+  width: 300px;
+  height: 100%;
+}
+.search-icon {
+  width: 52px;
+  font-size: 19px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.result-body {
+  width: 100%;
+  height: auto;
+  background-color: #f5f8fc;
+  padding-left: 24px;
+  padding-right: 24px;
+  padding-top: 24px;
+  padding-bottom: 24px;
+}
+
+.body-header {
+  display: flex;
+  justify-content: space-between;
+  height: 50px;
+  align-items: center;
+  font-size: 25px;
+  font-family: 'Nunito', sans-serif;
+}
+.filter_box {
+  width: 205px;
+  border-radius: 8px;
+  height: 52px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  background-color: #f5f8fc;
+  text-align: center;
+
+  padding: 10px;
+}
+
+.row-titles {
+  width: 902px;
+  height: 43px;
+  border-radius: 8px;
+  background-color: white;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  font-family: 'Nunito', sans-serif;
+}
+
+.row-titles div {
+  width: auto;
+  height: 100%;
+  font-size: 16px;
+  color: #0052a8;
+  display: flex;
+  align-items: center;
+}
+
+.candidate-image {
+  width: 100%;
+  height: 100%;
+  border-radius: 32px;
+  object-fit: cover;
+}
+
+.img-container {
+  width: 32px !important;
+  height: 32px !important;
+  border-radius: 15px;
+  background-color: blue;
+}
+
+.current-page {
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.page-number {
+  background-color: rgba(242, 242, 242, 1);
+  font-family: Nunito;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 33px;
+  letter-spacing: 0em;
+  text-align: left;
+  border-bottom-left-radius: 8px;
+  border-top-left-radius: 8px;
+  padding: 3px;
+}
+.page-number-1 {
+  font-family: Nunito;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 33px;
+  letter-spacing: 0em;
+  text-align: left;
+  border-bottom-left-radius: 8px;
+  border-top-left-radius: 8px;
+  padding: 3px;
+}
+
+.responsive {
+  overflow-x: auto;
+}
+
+.customers {
+  border-collapse: collapse;
+  width: 100% !important;
+  background-color: #f5f8fc;
+}
+
+.customers td,
+.customers th {
+  padding: 8px;
+  font-family: 'Nunito', sans-serif !important;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 22px;
+  letter-spacing: 0em;
+  text-align: left;
+  font-style: normal;
+  font-weight: normal;
+}
+
+.customers th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: white;
+  color: rgba(0, 82, 168, 1);
+  font-family: 'Nunito', sans-serif !important;
+
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 22px;
+  letter-spacing: 0em;
+}
+.table-header-left {
+  border-top-left-radius: 8px;
+  border-bottom-left-radius: 8px;
+}
+
+.table-header-right {
+  border-top-right-radius: 8px;
+  border-bottom-right-radius: 8px;
+}
+
+.header {
+  font-weight: 600;
+  color: rgba(0, 82, 168, 1);
+}
+
+.move-forward {
+  margin: 0px !important;
+  padding: 0px !important;
+  border: none;
+  height: 100%;
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+}
+
+.move-backward {
+  margin: 0px !important;
+  padding: 0px !important;
+  border: none;
+  height: 100%;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
+
+.of-text {
+  height: 33px;
+  width: 22px;
+  left: 102px;
+  top: 3.5px;
+
+  font-family: 'Nunito', sans-serif !important;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 33px;
+  letter-spacing: 0em;
+  text-align: left;
+
+  font-style: normal;
+  font-weight: normal;
+}
+
+.current-page-wrapper {
+  display: flex;
+  align-items: center;
+}
